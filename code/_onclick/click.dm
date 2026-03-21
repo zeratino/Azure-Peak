@@ -707,6 +707,7 @@
 	if(dir != olddir)
 		last_dir_change = world.time
 		sprinted_tiles = 0
+		src.stop_looking()
 
 //debug
 /atom/movable/screen/proc/scale_to(x1,y1)
